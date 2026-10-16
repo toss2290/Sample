@@ -1,0 +1,51 @@
+schema_version = "1.0.0"
+
+id = "loop_resample"
+version = "1.0.1"
+name = "Loop Resample"
+tagline = "Reshape edges to any segment count with attributes preserved"
+maintainer = "YLIANG"
+type = "add-on"
+website = "https://github.com/YLIANG021/Loop-Resample"
+
+tags = ["Modeling", "Mesh"]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+[build]
+# Everything below is a working-tree artifact rather than part of the extension, so a
+# build straight from this directory comes out with the same files the release does.
+paths_exclude_pattern = [
+  "__pycache__/",
+  "*.pyc",
+  ".git/",
+  ".idea/",
+  ".vscode/",
+  ".mypy_cache/",
+  ".pytest_cache/",
+  ".ruff_cache/",
+  "build/",
+  "dist/",
+  "tests/",
+  "tools/",
+  ".gitignore",
+  ".gitattributes",
+  ".DS_Store",
+  "Thumbs.db",
+  "*.zip",
+  "*.log",
+  "*.tmp",
+  "*.bak",
+  "*.blend1",
+  "*.blend2",
+  "*.txt",
+  "*.md",
+  "*.vbs",
+  "*.bat",
+  "*.cmd",
+  "*.ps1",
+]
